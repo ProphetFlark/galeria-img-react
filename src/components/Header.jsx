@@ -5,7 +5,7 @@ const Header = () => {
     <div>
       <nav className="navbar navbar-dark bg-dark w-100">
         <div className="container-fluid">
-          <a className="navbar-brand mb-0 h1">Galería de Imágenes</a>
+          <a className="navbar-brand mb-0 h1 mx-auto">Galería de Imágenes</a>
         </div>
       </nav>
     </div>

@@ -12,7 +12,7 @@ const Cards = () => {
 
       {loading && <Loading />}
 
-      <div className="row w-100">
+      <div className="row w-100 mx-auto">
         {images.map((img) => {
           return (
             <div key={img.id} className="col">

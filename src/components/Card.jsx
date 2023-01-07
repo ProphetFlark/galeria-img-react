@@ -3,7 +3,10 @@ import PropTypes from "prop-types";
 
 const Card = ({ img, title, text, button }) => {
   return (
-    <div className="card my-3" style={{ width: "18rem", objectFit: "cover" }}>
+    <div
+      className="card my-3 mx-auto"
+      style={{ width: "18rem", objectFit: "cover" }}
+    >
       <img src={img} className="card-img-top" alt="..." />
       <div className="card-body">
         <h5 className="card-title">{title}</h5>

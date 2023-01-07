@@ -5,16 +5,25 @@ const FormImg = ({ handleSubmit }) => {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <label className="d-block align-items-center w-75">
+        <label className="d-block align-items-center mx-auto ">
           <span
-            className="font-weight-bold d-block text-center"
+            className="font-weight-bold d-block text-center my-3"
             style={{ fontSize: "2rem" }}
           >
-            Buscar:
+            Buscar imágenes:
           </span>
-          <input className="w-100" type="text" name="inputText" />
+          <input
+            className="w-100"
+            style={{ width: "80vw", borderWidth: "3px" }}
+            type="text"
+            name="inputText"
+          />
         </label>
-        <button type="submit" className="btn btn-warning w-75 my-3">
+        <button
+          type="submit"
+          className="btn btn-warning d-block align-items-center my-3 mx-auto"
+          style={{ width: "81vw" }}
+        >
           Buscar
         </button>
       </form>
